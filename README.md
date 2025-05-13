@@ -1,7 +1,7 @@
 # ProjectReport
 
 PP1.py
-This program performs an exploratory data analysis on e-commerce return data. It calculates return rates overall and by category, identifies top returned products, and visualizes trends like monthly return rates and revenue impact. The output is a detailed dashboard of visual plots to understand product returns.
+This program cleans and analyzes e-commerce product data by handling dates, correcting negative values, and removing duplicates. It generates insights like overall and category-wise return rates, monthly return trends, and identifies top returned products. Visualizations are created using Matplotlib and Seaborn, forming a detailed return analysis dashboard.
 
 PP2.py
-This script builds a logistic regression model to predict whether a product will be returned based on features like quantity, revenue, and category. It evaluates the model and uses it to label products by return risk level, exporting both full and high-risk product datasets for further use 
+This script trains a logistic regression model to predict product return probability based on features like quantity, revenue, and category. It evaluates model performance and assigns return risk levels to each product. The output includes two CSVs: one with all predictions and another with high-risk products (probability > 0.8)
